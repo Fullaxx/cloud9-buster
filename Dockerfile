@@ -1,6 +1,6 @@
 # ------------------------------------------------------------------------------
 # Pull base image.
-FROM debian:10-slim
+FROM debian:buster-slim
 MAINTAINER Brett Kuskie <fullaxx@gmail.com>
 
 # ------------------------------------------------------------------------------
