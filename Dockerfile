@@ -16,7 +16,7 @@ RUN sed -e 's/# en_US.UTF-8/en_US.UTF-8/' -i /etc/locale.gen && locale-gen
 # ------------------------------------------------------------------------------
 # Install Cloud9
 RUN git clone https://github.com/c9/core.git /c9 && \
-cd /c9 && ./scripts/install-sdk.sh && mkdir /c9ws /var/log/supervisor
+cd /c9 && ./scripts/install-sdk.sh && mkdir /c9ws
 
 # ------------------------------------------------------------------------------
 # Add supervisord conf
